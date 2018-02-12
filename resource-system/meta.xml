@@ -1,0 +1,5 @@
+<meta>
+	<info author="Phil" version="1.0" type="script" description="MTA:RP Resource Manager"/>
+	
+	<script src="s_resource.lua" type="server"/>
+</meta>	

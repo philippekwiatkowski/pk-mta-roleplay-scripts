@@ -1,0 +1,6 @@
+<meta>
+	<info author="Phil" version="1.0" description="Shop System"/>
+	
+	<script src="s_shops.lua" type="server"/>
+	<script src="c_shops.lua" type="client"/>
+</meta>	

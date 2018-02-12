@@ -1,0 +1,5 @@
+<meta>
+	<info author="Phil" version="1.0" description="Commerce System"/>
+	
+	<script src="commerce.lua" type="server"/>
+</meta>

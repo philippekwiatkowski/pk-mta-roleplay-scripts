@@ -1,0 +1,6 @@
+<meta>
+	<info author="Phil" version="1.0" type="script" description="Chat System"/>
+	
+	<script src="s_chat.lua" type="server"/>
+	<script src="stats.lua" type="server"/>
+</meta>	

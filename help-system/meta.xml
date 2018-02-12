@@ -1,0 +1,9 @@
+<meta>
+	<info author="Phil" version="1.0" description="Tutorial System"/>
+	
+	<script src="tutorial/c_tutorial.lua" type="client"/>
+	<script src="tutorial/s_tutorial.lua" type="server"/>
+	<script src="tutorial/classroom.lua" type="server"/>
+	
+	<script src="help/global_blips.lua" type="client"/>
+</meta>	

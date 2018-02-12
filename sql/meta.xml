@@ -1,0 +1,17 @@
+<meta>
+	<info author="Phil" version="1.0" description="Database Management"/>
+	
+	<script src="sql.lua" type="server"/>
+	
+			<!-- Exports -->
+	<export function="query" type="server"/>
+	<export function="fetch_assoc" type="server"/>
+	<export function="query_fetch_assoc" type="server"/>
+	<export function="insert_id" type="server"/>
+	<export function="num_rows" type="server"/>
+	<export function="null" type="server"/>
+	<export function="free_result" type="server"/>
+	<export function="escape_string" type="server"/>
+	<export function="errno" type="server"/>
+	<export function="err" type="server"/>
+</meta>	

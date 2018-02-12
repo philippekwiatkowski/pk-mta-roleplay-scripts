@@ -1,0 +1,6 @@
+<meta>
+    <info author="Phil" type="script" description="Animation System"/>
+
+	<script src="s_animations.lua" type="server"/>
+	<script src="c_animations.lua" type="client"/>
+</meta>

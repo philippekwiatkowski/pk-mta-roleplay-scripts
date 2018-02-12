@@ -1,0 +1,28 @@
+<map edf:definitions="editor_main">
+    <object id="object (ab_woozies01) (1)" doublesided="false" model="14534" interior="20" dimension="443" posX="457.6708984375" posY="2497.9462890625" posZ="124.40937805176" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_SLOTCOVER1) (1)" doublesided="false" model="2098" interior="20" dimension="443" posX="462.1630859375" posY="2496.8525390625" posZ="121.73707580566" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (blck_jack) (1)" doublesided="false" model="2188" interior="20" dimension="443" posX="452.10363769531" posY="2502.2297363281" posZ="120.76989746094" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (blck_jack) (2)" doublesided="false" model="2188" interior="20" dimension="443" posX="456.05401611328" posY="2502.3095703125" posZ="120.76989746094" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (mafiaCasinoBar1) (2)" doublesided="false" model="14582" interior="20" dimension="443" posX="464.87457275391" posY="2493.5231933594" posZ="128.47959899902" rotX="0" rotY="0" rotZ="54" />
+    <object id="object (mrk_wrobe_tmp) (1)" doublesided="false" model="2025" interior="20" dimension="443" posX="460.43585205078" posY="2503.80859375" posZ="124.99546051025" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (kb_couch06) (2)" doublesided="false" model="1702" interior="20" dimension="443" posX="455.90368652344" posY="2503.443359375" posZ="125.00312805176" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (kb_couch06) (3)" doublesided="false" model="1702" interior="20" dimension="443" posX="454.1669921875" posY="2500.861328125" posZ="125.00312805176" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (MED_OFFICE7_DESK_1) (1)" doublesided="false" model="2207" interior="20" dimension="443" posX="462.52270507813" posY="2501.9621582031" posZ="125.00312805176" rotX="0" rotY="0" rotZ="270" />
+    <object id="object (swivelchair_B) (2)" doublesided="false" model="1663" interior="20" dimension="443" posX="464.32183837891" posY="2501.1005859375" posZ="125.46334075928" rotX="0" rotY="0" rotZ="270" />
+    <object id="object (CJ_POLICE_COUNTER2) (1)" doublesided="false" model="2606" interior="20" dimension="443" posX="463.498046875" posY="2504.1181640625" posZ="127.22789764404" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_POLICE_COUNTER2) (2)" doublesided="false" model="2606" interior="20" dimension="443" posX="463.50595092773" posY="2504.1186523438" posZ="126.78451538086" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_POLICE_COUNTER2) (3)" doublesided="false" model="2606" interior="20" dimension="443" posX="463.5192565918" posY="2504.1186523438" posZ="126.35742950439" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (wheel_table) (1)" doublesided="false" model="1896" interior="20" dimension="443" posX="456.21112060547" posY="2498.4880371094" posZ="125.98099517822" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (propwinebotl1) (1)" doublesided="false" model="1669" interior="20" dimension="443" posX="463.05410766602" posY="2500.2006835938" posZ="125.94720458984" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (propwineglass1) (1)" doublesided="false" model="1667" interior="20" dimension="443" posX="463.25665283203" posY="2500.0791015625" posZ="125.86907958984" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_Sphere_TV) (1)" doublesided="false" model="2224" interior="20" dimension="443" posX="453.6565246582" posY="2502.9448242188" posZ="125.00312805176" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (SWANK_HI_FI_2) (1)" doublesided="false" model="2225" interior="20" dimension="443" posX="463.7057800293" posY="2504.1008300781" posZ="124.99546051025" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_SLOT_BANK) (1)" doublesided="false" model="2785" interior="20" dimension="443" posX="459.91836547852" posY="2499.9892578125" posZ="120.62885284424" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (int2Vase) (1)" doublesided="false" model="14705" interior="20" dimension="443" posX="453.60659790039" posY="2497.9152832031" posZ="125.25162506104" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (man_sdr_tables) (1)" doublesided="false" model="1827" interior="20" dimension="443" posX="456.27392578125" posY="2501.6103515625" posZ="125.00312805176" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (kb_chair04) (1)" doublesided="false" model="1705" interior="20" dimension="443" posX="458.54061889648" posY="2501.9660644531" posZ="125.00312805176" rotX="0" rotY="0" rotZ="270" />
+    <object id="object (kmb_cam) (2)" doublesided="false" model="2921" interior="20" dimension="443" posX="457.43371582031" posY="2500.5307617188" posZ="124.00379180908" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (kmb_cam) (3)" doublesided="false" model="2921" interior="20" dimension="443" posX="450.98104858398" posY="2496.7873535156" posZ="124.00366973877" rotX="0" rotY="0" rotZ="276" />
+    <object id="object (Gen_doorEXT09) (1)" doublesided="false" model="1507" interior="20" dimension="443" posX="462.806640625" posY="2500.3681640625" posZ="119.78437805176" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (trukstp05) (1)" doublesided="false" model="14651" interior="20" dimension="443" posX="453.0530090332" posY="2501.4313964844" posZ="127.24459075928" rotX="0" rotY="0" rotZ="0" />
+</map>

@@ -1,0 +1,26 @@
+<meta>
+	<info author="Phil" version="1.0" description="Realism System"/>
+	
+	<script src="s_realism.lua" type="server"/>
+	<script src="c_realism.lua" type="client"/>
+	
+	<script src="hud/c_hud.lua" type="client"/>
+	
+	<script src="reload/reload.lua" type="server"/>
+	
+	<script src="fire/s_fire.lua" type="server"/>
+	
+	<script src="taser/s_taser.lua" type="server"/>
+	<script src="taser/c_taser.lua" type="client"/>
+	<file src="taser/taser.wav"/>
+
+	<script src="smoking/server.lua" type="server"/>
+	<script src="smoking/client.lua" type="client"/>
+	<export function="smokeCigarette" type="server"/>
+	
+	<script src="infopoints/s_infopoints.lua" type="server"/>
+	<script src="infopoints/c_infopoints.lua" type="client"/>
+	
+	<script src="s_time.lua" type="server"/>
+	<script src="c_time.lua" type="client"/>
+</meta>	

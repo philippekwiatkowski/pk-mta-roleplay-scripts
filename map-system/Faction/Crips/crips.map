@@ -1,0 +1,27 @@
+<map edf:definitions="editor_main">
+    <object id="object (vgsSstairs04_lvs) (2)" doublesided="true" model="8615" interior="0" dimension="0" posX="-165.30000305176" posY="1031.5" posZ="20.89999961853" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (vgsSstairs04_lvs) (3)" doublesided="true" model="8615" interior="0" dimension="0" posX="-168.599609375" posY="1037.099609375" posZ="22.10000038147" rotX="0" rotY="0" rotZ="179.99450683594"></object>
+    <object id="object (cxrf_a51_stairs) (1)" doublesided="false" model="3399" interior="0" dimension="0" posX="-171.7998046875" posY="1031.099609375" posZ="21.5" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (LOW_COUCH_4) (1)" doublesided="false" model="1756" interior="0" dimension="0" posX="-172.60000610352" posY="1027.8000488281" posZ="23" rotX="0" rotY="0" rotZ="200"></object>
+    <object id="object (LOW_COUCH_4) (2)" doublesided="false" model="1756" interior="0" dimension="0" posX="-173.69999694824" posY="1030.9000244141" posZ="23" rotX="0" rotY="0" rotZ="321.9951171875"></object>
+    <object id="object (COFFEE_SWANK_1) (2)" doublesided="false" model="2236" interior="0" dimension="0" posX="-173.30000305176" posY="1029.3000488281" posZ="23" rotX="0" rotY="0" rotZ="176"></object>
+    <object id="object (DYN_WINE_BOUNCE) (1)" doublesided="false" model="1520" interior="0" dimension="0" posX="-173.60000610352" posY="1028.6999511719" posZ="23.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_WINE_BREAK) (1)" doublesided="false" model="1517" interior="0" dimension="0" posX="-174.30000305176" posY="1028.6999511719" posZ="23.700000762939" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_WINE_03) (1)" doublesided="false" model="1512" interior="0" dimension="0" posX="-173.89999389648" posY="1028.9000244141" posZ="23.700000762939" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (RUBBISH_BOX2) (1)" doublesided="false" model="926" interior="0" dimension="0" posX="-171.19999694824" posY="1024.1999511719" posZ="23.299999237061" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (RUBBISH_BOX2) (2)" doublesided="false" model="926" interior="0" dimension="0" posX="-171.5" posY="1025.3000488281" posZ="23.299999237061" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (GB_takeaway02) (1)" doublesided="false" model="2837" interior="0" dimension="0" posX="-172.10000610352" posY="1024.4000244141" posZ="23" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (GB_takeaway02) (2)" doublesided="false" model="2837" interior="0" dimension="0" posX="-172" posY="1025.1999511719" posZ="23" rotX="0" rotY="0" rotZ="233.99996948242"></object>
+    <object id="object (cs_oldcarjmp) (1)" doublesided="false" model="18451" interior="0" dimension="0" posX="-174.60000610352" posY="1041.3000488281" posZ="23.60000038147" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_CHRIS_CRATE) (1)" doublesided="false" model="2669" interior="0" dimension="0" posX="-178.60000610352" posY="1026.5999755859" posZ="24.39999961853" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (MED_COUCH_1) (1)" doublesided="false" model="1766" interior="0" dimension="0" posX="-178" posY="1026.5" posZ="23.200000762939" rotX="0" rotY="0" rotZ="278"></object>
+    <object id="object (COFFEE_LOW_5) (1)" doublesided="false" model="1813" interior="0" dimension="0" posX="-179" posY="1025" posZ="23.200000762939" rotX="0" rotY="0" rotZ="85"></object>
+    <object id="object (LOW_TV_2) (1)" doublesided="false" model="1747" interior="0" dimension="0" posX="-179.80000305176" posY="1025.9000244141" posZ="23.700000762939" rotX="0" rotY="0" rotZ="92"></object>
+    <object id="object (DYN_ASHTRY) (1)" doublesided="false" model="1510" interior="0" dimension="0" posX="-179.5" posY="1025" posZ="23.700000762939" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_CIGGY) (1)" doublesided="false" model="1485" interior="0" dimension="0" posX="-179.69999694824" posY="1025.0999755859" posZ="23.700000762939" rotX="0" rotY="346" rotZ="0"></object>
+    <object id="object (GB_takeaway02) (3)" doublesided="false" model="2837" interior="0" dimension="0" posX="-177.69999694824" posY="1027.3000488281" posZ="23.200000762939" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (GB_takeaway02) (4)" doublesided="false" model="2837" interior="0" dimension="0" posX="-177.80000305176" posY="1027.5" posZ="23.299999237061" rotX="0" rotY="0" rotZ="80"></object>
+    <object id="object (fenceshit3) (1)" doublesided="false" model="983" interior="0" dimension="0" posX="-164.39999389648" posY="1040.1999511719" posZ="23.200000762939" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fenceshit3) (2)" doublesided="false" model="983" interior="0" dimension="0" posX="-164.39999389648" posY="1038.5999755859" posZ="23.200000762939" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fenceshit3) (3)" doublesided="false" model="983" interior="0" dimension="0" posX="-167.60000610352" posY="1043.4000244141" posZ="23.200000762939" rotX="0" rotY="0" rotZ="90"></object>
+</map>

@@ -1,0 +1,281 @@
+<meta>
+	<info author="Phil" version="1.0" description="Global Returns"/>
+	
+	<script src="admin.lua" type="server"/>
+	<export function="isPlayerTrialModerator" type="server"/>
+	<export function="isPlayerModerator" type="server"/>
+	<export function="isPlayerHighModerator" type="server"/>
+	<export function="isPlayerAdministrator" type="server"/>
+	<export function="isPlayerHighAdministrator" type="server"/>
+	<export function="isPlayerScripter" type="server"/>
+	<export function="getPlayerAdminTitle" type="server"/>
+	<export function="getPlayerAdminLevel" type="server"/>
+	
+	
+	<script src="c_admin.lua" type="client"/>
+	<export function="c_isPlayerTrialModerator" type="client"/>
+	<export function="c_isPlayerModerator" type="client"/>
+	<export function="c_isPlayerHighModerator" type="client"/>
+	<export function="c_isPlayerAdministrator" type="client"/>
+	<export function="c_isPlayerHighAdministrator" type="client"/>
+	<export function="c_isPlayerScripter" type="client"/>
+	<export function="c_getPlayerAdminTitle" type="client"/>
+	<export function="c_getPlayerAdminLevel" type="client"/>
+	
+	<script src="player.lua" type="server"/>
+	<export function="findPlayer" type="server"/>
+	
+	<script src="c_player.lua" type="client"/>
+	<export function="findPlayer" type="client"/>
+	
+	<script src="nametag.lua" type="server"/>
+	<export function="updateNametagColor" type="server"/>
+	
+	<script src="c_nametag.lua" type="client"/>
+	<export function="c_updateNametagColor" type="client"/>
+	
+	<script src="donator.lua" type="server"/>
+	<export function="isPlayerLevelOneDonator" type="server"/>
+	<export function="isPlayerLevelTwoDonator" type="server"/>
+	<export function="isPlayerLevelThreeDonator" type="server"/>
+	<export function="getPlayerDonatorTitle" type="server"/>
+	
+	<script src="c_donator.lua" type="client"/>
+	<export function="c_isPlayerLevelOneDonator" type="client"/>
+	<export function="c_isPlayerLevelTwoDonator" type="client"/>
+	<export function="c_isPlayerLevelThreeDonator" type="client"/>
+	<export function="c_getPlayerDonatorTitle" type="client"/>
+	
+	<script src="pointer.lua" type="client"/>
+	
+	<script src="scripting.lua" type="server"/>
+	<script src="c_scripting.lua" type="client"/>
+	
+	<script src="country.lua" type="server"/>
+	<export function="getPlayerCountry" type="server"/>
+	<export function="getPlayerCountryByIP" type="server"/>
+	<export function="getCountryNameByCode" type="server"/>
+	
+	<file src="flags/Afghanistan.png"/>
+	<file src="flags/Albania.png"/>
+	<file src="flags/Algeria.png"/>
+	<file src="flags/American_Samoa.png"/>
+	<file src="flags/Andorra.png"/>
+	<file src="flags/Angola.png"/>
+	<file src="flags/Anguilla.png"/>
+	<file src="flags/Antigua_and_Barbuda.png"/>
+	<file src="flags/Argentina.png"/>
+	<file src="flags/Armenia.png"/>
+	<file src="flags/Aruba.png"/>
+	<file src="flags/Australia.png"/>
+	<file src="flags/Austria.png"/>
+	<file src="flags/Azerbaijan.png"/>
+	<file src="flags/Bahamas.png"/>
+	<file src="flags/Bahrain.png"/>
+	<file src="flags/Bangladesh.png"/>
+	<file src="flags/Barbados.png"/>
+	<file src="flags/Belarus.png"/>
+	<file src="flags/Belgium.png"/>
+	<file src="flags/Belize.png"/>
+	<file src="flags/Benin.png"/>
+	<file src="flags/Bermuda.png"/>
+	<file src="flags/Bhutan.png"/>
+	<file src="flags/Bolivia.png"/>
+	<file src="flags/Bosnia.png"/>
+	<file src="flags/Botswana.png"/>
+	<file src="flags/Brazil.png"/>
+	<file src="flags/British_Virgin_Islands.png"/>
+	<file src="flags/Brunei.png"/>
+	<file src="flags/Bulgaria.png"/>
+	<file src="flags/Burkina_Faso.png"/>
+	<file src="flags/Burundi.png"/>
+	<file src="flags/Cambodia.png"/>
+	<file src="flags/Cameroon.png"/>
+	<file src="flags/Canada.png"/>
+	<file src="flags/Cape_Verde.png"/>
+	<file src="flags/Cayman_Islands.png"/>
+	<file src="flags/Central_African_Republic.png"/>
+	<file src="flags/Chad.png"/>
+	<file src="flags/Chile.png"/>
+	<file src="flags/China.png"/>
+	<file src="flags/Christmas_Island.png"/>
+	<file src="flags/Colombia.png"/>
+	<file src="flags/Comoros.png"/>
+	<file src="flags/Cook_Islands.png"/>
+	<file src="flags/Costa_Rica.png"/>
+	<file src="flags/Cote_d'Ivoire.png"/>
+	<file src="flags/Croatia.png"/>
+	<file src="flags/Cuba.png"/>
+	<file src="flags/Cyprus.png"/>
+	<file src="flags/Czech_Republic.png"/>
+	<file src="flags/Democratic_Republic_of_the_Congo.png"/>
+	<file src="flags/Denmark.png"/>
+	<file src="flags/Djibouti.png"/>
+	<file src="flags/Dominica.png"/>
+	<file src="flags/Dominican_Republic.png"/>
+	<file src="flags/Ecuador.png"/>
+	<file src="flags/Egypt.png"/>
+	<file src="flags/El_Salvador.png"/>
+	<file src="flags/Equatorial_Guinea.png"/>
+	<file src="flags/Eritrea.png"/>
+	<file src="flags/Estonia.png"/>
+	<file src="flags/Ethiopia.png"/>
+	<file src="flags/Falkland_Islands.png"/>
+	<file src="flags/Faroe_Islands.png"/>
+	<file src="flags/Fiji.png"/>
+	<file src="flags/Finland.png"/>
+	<file src="flags/France.png"/>
+	<file src="flags/French_Polynesia.png"/>
+	<file src="flags/Gabon.png"/>
+	<file src="flags/Gambia.png"/>
+	<file src="flags/Georgia.png"/>
+	<file src="flags/Germany.png"/>
+	<file src="flags/Ghana.png"/>
+	<file src="flags/Gibraltar.png"/>
+	<file src="flags/Greece.png"/>
+	<file src="flags/Greenland.png"/>
+	<file src="flags/Grenada.png"/>
+	<file src="flags/Guam.png"/>
+	<file src="flags/Guatemala.png"/>
+	<file src="flags/Guinea.png"/>
+	<file src="flags/Guinea_Bissau.png"/>
+	<file src="flags/Guyana.png"/>
+	<file src="flags/Haiti.png"/>
+	<file src="flags/Honduras.png"/>
+	<file src="flags/Hong_Kong.png"/>
+	<file src="flags/Hungary.png"/>
+	<file src="flags/Iceland.png"/>
+	<file src="flags/India.png"/>
+	<file src="flags/Indonesia.png"/>
+	<file src="flags/Iran.png"/>
+	<file src="flags/Iraq.png"/>
+	<file src="flags/Ireland.png"/>
+	<file src="flags/Israel.png"/>
+	<file src="flags/Italy.png"/>
+	<file src="flags/Jamaica.png"/>
+	<file src="flags/Japan.png"/>
+	<file src="flags/Jordan.png"/>
+	<file src="flags/Kazakhstan.png"/>
+	<file src="flags/Kenya.png"/>
+	<file src="flags/Kiribati.png"/>
+	<file src="flags/Kuwait.png"/>
+	<file src="flags/Kyrgyzstan.png"/>
+	<file src="flags/Laos.png"/>
+	<file src="flags/Latvia.png"/>
+	<file src="flags/Lebanon.png"/>
+	<file src="flags/Lesotho.png"/>
+	<file src="flags/Liberia.png"/>
+	<file src="flags/Libya.png"/>
+	<file src="flags/Liechtenstein.png"/>
+	<file src="flags/Lithuania.png"/>
+	<file src="flags/Luxembourg.png"/>
+	<file src="flags/Macao.png"/>
+	<file src="flags/Macedonia.png"/>
+	<file src="flags/Madagascar.png"/>
+	<file src="flags/Malawi.png"/>
+	<file src="flags/Malaysia.png"/>
+	<file src="flags/Maldives.png"/>
+	<file src="flags/Mali.png"/>
+	<file src="flags/Malta.png"/>
+	<file src="flags/Marshall_Islands.png"/>
+	<file src="flags/Martinique.png"/>
+	<file src="flags/Mauritania.png"/>
+	<file src="flags/Mauritius.png"/>
+	<file src="flags/Mexico.png"/>
+	<file src="flags/Micronesia.png"/>
+	<file src="flags/Moldova.png"/>
+	<file src="flags/Monaco.png"/>
+	<file src="flags/Mongolia.png"/>
+	<file src="flags/Montserrat.png"/>
+	<file src="flags/Morocco.png"/>
+	<file src="flags/Mozambique.png"/>
+	<file src="flags/Myanmar.png"/>
+	<file src="flags/Namibia.png"/>
+	<file src="flags/Nauru.png"/>
+	<file src="flags/Nepal.png"/>
+	<file src="flags/Netherlands.png"/>
+	<file src="flags/Netherlands_Antilles.png"/>
+	<file src="flags/New_Zealand.png"/>
+	<file src="flags/Nicaragua.png"/>
+	<file src="flags/Niger.png"/>
+	<file src="flags/Nigeria.png"/>
+	<file src="flags/Niue.png"/>
+	<file src="flags/Norfolk_Island.png"/>
+	<file src="flags/North_Korea.png"/>
+	<file src="flags/Norway.png"/>
+	<file src="flags/Oman.png"/>
+	<file src="flags/Pakistan.png"/>
+	<file src="flags/Palau.png"/>
+	<file src="flags/Panama.png"/>
+	<file src="flags/Papua_New_Guinea.png"/>
+	<file src="flags/Paraguay.png"/>
+	<file src="flags/Peru.png"/>
+	<file src="flags/Philippines.png"/>
+	<file src="flags/Pitcairn_Islands.png"/>
+	<file src="flags/Poland.png"/>
+	<file src="flags/Portugal.png"/>
+	<file src="flags/Puerto_Rico.png"/>
+	<file src="flags/Qatar.png"/>
+	<file src="flags/Republic_of_the_Congo.png"/>
+	<file src="flags/Romania.png"/>
+	<file src="flags/Russian_Federation.png"/>
+	<file src="flags/Rwanda.png"/>
+	<file src="flags/Saint_Kitts_and_Nevis.png"/>
+	<file src="flags/Saint_Lucia.png"/>
+	<file src="flags/Saint_Pierre.png"/>
+	<file src="flags/Saint_Vicent_and_the_Grenadines.png"/>
+	<file src="flags/Samoa.png"/>
+	<file src="flags/San_Marino.png"/>
+	<file src="flags/Sao_Tome_and_Principe.png"/>
+	<file src="flags/Saudi_Arabia.png"/>
+	<file src="flags/Senegal.png"/>
+	<file src="flags/Serbia_and_Montenegro.png"/>
+	<file src="flags/Seychelles.png"/>
+	<file src="flags/Sierra_Leone.png"/>
+	<file src="flags/Singapore.png"/>
+	<file src="flags/Slovakia.png"/>
+	<file src="flags/Slovenia.png"/>
+	<file src="flags/Soloman_Islands.png"/>
+	<file src="flags/Somalia.png"/>
+	<file src="flags/South_Africa.png"/>
+	<file src="flags/South_Georgia.png"/>
+	<file src="flags/South_Korea.png"/>
+	<file src="flags/Spain.png"/>
+	<file src="flags/Sri_Lanka.png"/>
+	<file src="flags/Sudan.png"/>
+	<file src="flags/Suriname.png"/>
+	<file src="flags/Swaziland.png"/>
+	<file src="flags/Sweden.png"/>
+	<file src="flags/Switzerland.png"/>
+	<file src="flags/Syria.png"/>
+	<file src="flags/Taiwan.png"/>
+	<file src="flags/Tajikistan.png"/>
+	<file src="flags/Tanzania.png"/>
+	<file src="flags/Thailand.png"/>
+	<file src="flags/Tibet.png"/>
+	<file src="flags/Timor-Leste.png"/>
+	<file src="flags/Togo.png"/>
+	<file src="flags/Tonga.png"/>
+	<file src="flags/Trinidad_and_Tobago.png"/>
+	<file src="flags/Tunisia.png"/>
+	<file src="flags/Turkey.png"/>
+	<file src="flags/Turkmenistan.png"/>
+	<file src="flags/Turks_and_Caicos_Islands.png"/>
+	<file src="flags/Tuvalu.png"/>
+	<file src="flags/UAE.png"/>
+	<file src="flags/Uganda.png"/>
+	<file src="flags/Ukraine.png"/>
+	<file src="flags/United_Kingdom.png"/>
+	<file src="flags/United_States_of_America.png"/>
+	<file src="flags/Uruguay.png"/>
+	<file src="flags/US_Virgin_Islands.png"/>
+	<file src="flags/Uzbekistan.png"/>
+	<file src="flags/Wallis_and_Futuna.png"/>
+	<file src="flags/Vanuatu.png"/>
+	<file src="flags/Vatican_City.png"/>
+	<file src="flags/Venezuela.png"/>
+	<file src="flags/Vietnam.png"/>
+	<file src="flags/Yemen.png"/>
+	<file src="flags/Zambia.png"/>
+	<file src="flags/Zimbabwe.png"/>
+</meta>	

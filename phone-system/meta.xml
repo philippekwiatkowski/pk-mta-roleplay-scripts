@@ -1,0 +1,35 @@
+<meta>	
+	<info author="Phil" version="1.0" description="Phone System"/>
+	
+	<script src="s_phone.lua" type="server"/>
+	<script src="c_phone.lua" type="client"/>
+	
+	<file src="phone.png"/>
+
+	<file src="wallpapers/red.png"/>
+	<file src="wallpapers/blue.png"/>
+	<file src="wallpapers/black.png"/>
+	
+	<file src="icons/contacts.png"/>
+	<file src="icons/menu.png"/>
+	<file src="icons/off.png"/>
+	
+	<file src="icons/call.png"/>
+	<file src="icons/sms.png"/>
+	<file src="icons/settings.png"/>
+	
+	<file src="icons/back.png"/>
+	<file src="icons/next.png"/>
+	<file src="icons/sendsms.png"/>
+	
+	<file src="icons/change.png"/>
+	<file src="icons/wallpaper.png"/>
+	<file src="icons/ringtone.png"/>
+	<file src="icons/music.png"/>
+	<file src="icons/addcontact.png"/>
+	<file src="icons/delete.png"/>
+	
+	<file src="ringtones/flute.mp3"/>
+	<file src="ringtones/business.mp3"/>
+	<file src="ringtones/pretty.mp3"/>
+</meta>	

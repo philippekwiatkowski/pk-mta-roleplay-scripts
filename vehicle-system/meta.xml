@@ -1,0 +1,30 @@
+<meta>
+	<info author="Phil" version="1.0" description="Vehicle System"/>
+	
+	<script src="s_vehicle.lua" type="server"/>
+	<export function="generateRandomPlate" type="server"/>
+	
+	<script src="c_vehicle.lua" type="client"/>
+	<file src="sounds/lock.mp3"/>
+	<file src="sounds/unlock.mp3"/>
+	
+	<script src="c_panel.lua" type="client"/>
+	<script src="s_panel.lua" type="server"/>
+	
+	<script src="speedometer/speedometer.lua" type="client"/>
+	<export function="showSpeedometer" type="client"/>
+	<export function="hideSpeedometer" type="client"/>
+	
+	<script src="fuelmeter/c_fuelmeter.lua" type="client"/>
+	<export function="showFuelmeter" type="client"/>
+	<export function="hideFuelmeter" type="client"/>
+	
+	<script src="fuelmeter/stations.lua" type="client"/>
+	<script src="fuelmeter/s_fuelmeter.lua" type="server"/>
+	
+	<file src="speedometer/disc.png"/>
+	<file src="speedometer/needle.png"/>
+	
+	<file src="fuelmeter/fueldisc.png"/>
+	<file src="fuelmeter/fuelneedle.png"/>
+</meta>	

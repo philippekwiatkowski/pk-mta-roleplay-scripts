@@ -1,0 +1,11 @@
+<meta>
+	<info author="Phil" version="1.0" description="Friend System"/>
+	
+	<script src="c_friendlist.lua" type="client"/>
+	<script src="s_friendlist.lua" type="server"/>
+	
+	<export function="isFriendOnline" type="client"/>
+	
+	<script src="rightclick/c_rightclick.lua" type="client"/>
+	<script src="rightclick/s_rightclick.lua" type="server"/>
+</meta>	

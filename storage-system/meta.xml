@@ -1,0 +1,6 @@
+<meta>
+	<info author="Phil" version="1.0" description="Storage System"/> 
+	
+	<script src="c_storage.lua" type="client"/>
+	<script src="s_storage.lua" type="server"/>
+</meta>	

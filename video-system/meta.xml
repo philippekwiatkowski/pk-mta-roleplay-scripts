@@ -1,0 +1,6 @@
+<meta>
+	<info author="Phil" version="1.0" description="Video System"/>
+	
+	<script src="video.lua" type="server"/>
+	<script src="c_video.lua" type="client"/>
+</meta>	

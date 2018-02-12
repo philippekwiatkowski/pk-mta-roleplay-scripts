@@ -1,0 +1,5 @@
+<meta>
+	<info author="Phil" version="1.0" description="Events System"/>
+	
+	<script src="plane.lua" type="server"/>
+</meta>	

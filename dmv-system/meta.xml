@@ -1,0 +1,9 @@
+<meta>
+	<info author="Phil" version="1.0" description="DMV"/>
+
+	<script src="dmv.lua" type="client"/>
+	<script src="s_dmv.lua" type="server"/>
+	
+	<script src="s_practical.lua" type="server"/>
+	<script src="c_practical.lua" type="client"/>
+</meta>	

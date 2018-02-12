@@ -1,0 +1,24 @@
+<meta>
+	
+	<script src="createObject.lua" type="client"/>
+	<script src="map_help.lua" type="server"/>
+	
+	<!-- World -->
+	<map src="World/doherty.map" />
+	
+	<!-- Faction -->
+	<map src="Faction/SFVS/sfvs.map" />
+	<map src="Faction/SFVS/sfvs_interior.map" />
+	
+	<map src="Faction/SFPD/detective_hq.map" />
+	
+	<map src="Faction/Crips/crips_bar.map" />
+	<map src="Faction/Crips/crips.map" />
+	<map src="Faction/Crips/crips_interior.map" />
+	
+	<map src="Faction/Triads/club.map" />
+	<map src="Faction/Triads/office.map"/>
+	
+	<!-- Donation -->
+
+</meta>

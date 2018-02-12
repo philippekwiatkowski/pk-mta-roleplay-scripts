@@ -1,0 +1,12 @@
+<meta>
+	<info author="Phil" type="script" description="Door-System"/>
+	
+	<script src="Faction/lspd.lua" type="server"/>
+	<script src="Faction/lspdinterior.lua" type="server"/>
+	<script src="Faction/lsvs.lua" type="server"/>
+	<script src="Faction/lsfd.lua" type="server"/>
+	<script src="Faction/lsfdinterior.lua" type="server"/>
+	
+	<script src="Donation/Tajiri.lua" type="server"/>
+	<script src="Donation/Coinz.lua" type="server"/>
+</meta>

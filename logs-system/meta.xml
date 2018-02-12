@@ -1,0 +1,7 @@
+<meta>
+	<info author="Phil" version="1.0" description="Log System"/>
+	
+	<script src="log_system.lua" type="server"/>
+	
+	<export function="logAdminCommand" type="server"/>
+</meta>	

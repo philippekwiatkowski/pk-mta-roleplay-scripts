@@ -1,0 +1,52 @@
+<meta>
+	<info author="Phil" version="1.0" description="Faction System"/>
+	
+	<min_mta_version client="1.1.1-9.03355"/>
+	
+	<script src="c_factions.lua" type="client"/>
+	<script src="s_factions.lua" type="server"/>
+	
+	<export function="getPlayerWage" type="server"/>
+	<export function="getPlayerWage" type="client"/>
+	
+	<script src="commands/s_commands.lua" type="server"/>
+	<script src="commands/c_commands.lua" type="client"/>
+	
+	<script src="lspd/mdc/c_mdc.lua" type="client"/>
+	<script src="lspd/mdc/s_mdc.lua" type="server"/>
+	<script src="lspd/speedcam/speedcam.lua" type="server"/>
+	
+	<script src="san/s_advertisement.lua" type="server"/>
+	<script src="san/c_advertisement.lua" type="client"/>
+	
+	<script src="lsvs/gui/c_interact.lua" type="client"/>
+	<script src="lsvs/gui/s_interact.lua" type="server"/>
+	<script src="lsvs/towing/c_towing.lua" type="client"/>
+	<script src="lsvs/towing/s_towing.lua" type="server"/>
+	
+	<file src="images/71.png"/>
+	<file src="images/211.png"/>
+	<file src="images/276.png"/>
+	<file src="images/275.png"/>
+	<file src="images/274.png"/>
+	<file src="images/277.png"/>
+	<file src="images/278.png"/>
+	<file src="images/279.png"/>
+	<file src="images/280.png"/>
+	<file src="images/281.png"/>
+	<file src="images/282.png"/>
+	<file src="images/283.png"/>
+	<file src="images/284.png"/>
+	<file src="images/285.png"/>
+	<file src="images/266.png"/>
+	<file src="images/267.png"/>
+	<file src="images/265.png"/>
+	<file src="images/286.png"/>
+	<file src="images/288.png"/>
+	<file src="images/70.png"/>
+	<file src="images/166.png"/>
+	<file src="images/165.png"/>
+	
+	<file src="lspd/mdc/logo.png"/>
+	<file src="lsvs/gui/color.png"/>
+</meta>	

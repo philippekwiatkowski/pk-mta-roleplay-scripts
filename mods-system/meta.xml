@@ -1,0 +1,366 @@
+<meta>
+	<info author="Phil" type="script" description="Mods-System"/>
+
+	<script src="c_mods.lua" type="client"/>
+	<script src="c_radar.lua" type="client"/>
+	<script src="c_sounds.lua" type="client"/>
+	<script src="c_map.lua" type="client"/>
+	<script src="c_mapcontrol.lua" type="client"/>
+	<script src="s_handling.lua" type="server"/>
+		
+	<!-- Skins -->
+
+	<file src="skins/277.txd"/>
+	<file src="skins/277.dff"/>
+	
+	<file src="skins/278.txd"/>
+	<file src="skins/278.dff"/>
+	
+	<file src="skins/9.txd"/>
+	<file src="skins/9.dff"/>
+	
+	<file src="skins/10.txd"/>
+	<file src="skins/10.dff"/>
+	
+	<file src="skins/31.txd"/>
+	<file src="skins/31.dff"/>
+	
+	<file src="skins/38.txd"/>
+	<file src="skins/38.dff"/>
+	
+	<file src="skins/165.txd"/>
+	<file src="skins/165.dff"/>
+	
+	<!-- Sounds -->
+	
+	<file src="sounds/explosion1.wav"/>
+	<file src="sounds/explosion2.wav"/>
+	
+	<file src="sounds/pistol.wav"/>
+	<file src="sounds/shotgun.wav"/>
+	<file src="sounds/ak.wav"/>
+	<file src="sounds/m4.wav"/>
+	<file src="sounds/tec-9.wav"/>
+	<file src="sounds/uzi.wav"/>
+	<file src="sounds/deagle.wav"/>
+	<file src="sounds/sniper.wav"/>
+	<file src="sounds/mp5.wav"/>
+	
+	<!-- Vehicles
+	
+	<file src="vehicles/firetruck.txd"/>
+	<file src="vehicles/firetruck.dff"/>
+	
+	<file src="vehicles/ladder.txd"/>
+	<file src="vehicles/ladder.dff"/>
+	
+	<file src="vehicles/ambulance.txd"/>
+	<file src="vehicles/ambulance.dff"/>
+	-->
+	
+	<!-- Weapons -->
+	
+	<file src="weapons/colt45.txd"/>
+	<file src="weapons/colt45.dff"/>
+	
+	<file src="weapons/ak47.txd"/>
+	<file src="weapons/ak47.dff"/>
+	
+	<file src="weapons/combatshotgun.txd"/>
+	<file src="weapons/combatshotgun.dff"/>
+	
+	<file src="weapons/deagle.txd"/>
+	<file src="weapons/deagle.dff"/>
+	
+	<file src="weapons/m4.txd"/>
+	<file src="weapons/m4.dff"/>
+	
+	<file src="weapons/mp5.txd"/>
+	<file src="weapons/mp5.dff"/>
+	
+	<file src="weapons/rifle.txd"/>
+	<file src="weapons/rifle.dff"/>
+	
+	<file src="weapons/sawnoff.txd"/>
+	<file src="weapons/sawnoff.dff"/>
+	
+	<file src="weapons/shotgun.txd"/>
+	<file src="weapons/shotgun.dff"/>
+	
+	<file src="weapons/taser.txd"/>
+	<file src="weapons/taser.dff"/>
+	
+	<file src="weapons/sniper.txd"/>
+	<file src="weapons/sniper.dff"/>
+	
+	<file src="weapons/uzi.txd"/>
+	<file src="weapons/uzi.dff"/>
+	
+	<file src="weapons/spanner.txd"/>
+	<file src="weapons/spanner.dff"/>
+	
+	<!-- World -->
+	
+	<file src="world/cj_ammo_posters.txd"/>
+	<file src="world/firehouse_sfse.txd"/>
+	<file src="world/firehouse.dff"/>
+	<file src="world/sfse_12.col"/>
+	<file src="world/des_ufoinn.txd"/>
+	<file src="world/desn2_stud.txd"/>
+	<file src="world/airp_prop.txd"/>
+	
+	<file src="world/weed.txd"/>
+	<file src="world/weed.dff"/>
+	
+	<file src="world/speedcamera.txd"/>
+	<file src="world/speedcamera.dff"/>
+	<file src="world/speedcamera.col"/>
+	
+	<file src="world/fire_large.dff"/>
+	
+	<file src="world/smoke50lit.dff"/>
+	
+	<file src="world/privatesign.txd"/>
+	
+	<!-- Radar -->
+	
+	<file src="texreplace.fx"/>
+	
+	<file src="radar/radar_0_0.jpg"/>
+    <file src="radar/radar_0_1.jpg"/>
+    <file src="radar/radar_0_2.jpg"/>
+    <file src="radar/radar_0_3.jpg"/>
+    <file src="radar/radar_0_4.jpg"/>
+    <file src="radar/radar_0_5.jpg"/>
+    <file src="radar/radar_0_6.jpg"/>
+    <file src="radar/radar_0_7.jpg"/>
+    <file src="radar/radar_0_8.jpg"/>
+    <file src="radar/radar_0_9.jpg"/>
+    <file src="radar/radar_0_10.jpg"/>
+    <file src="radar/radar_0_11.jpg"/>
+    <file src="radar/radar_1_0.jpg"/>
+    <file src="radar/radar_1_1.jpg"/>
+    <file src="radar/radar_1_2.jpg"/>
+    <file src="radar/radar_1_3.jpg"/>
+    <file src="radar/radar_1_4.jpg"/>
+    <file src="radar/radar_1_5.jpg"/>
+    <file src="radar/radar_1_6.jpg"/>
+    <file src="radar/radar_1_7.jpg"/>
+    <file src="radar/radar_1_8.jpg"/>
+    <file src="radar/radar_1_9.jpg"/>
+    <file src="radar/radar_1_10.jpg"/>
+    <file src="radar/radar_1_11.jpg"/>
+    <file src="radar/radar_2_0.jpg"/>
+    <file src="radar/radar_2_1.jpg"/>
+    <file src="radar/radar_2_2.jpg"/>
+    <file src="radar/radar_2_3.jpg"/>
+    <file src="radar/radar_2_4.jpg"/>
+    <file src="radar/radar_2_5.jpg"/>
+    <file src="radar/radar_2_6.jpg"/>
+    <file src="radar/radar_2_7.jpg"/>
+    <file src="radar/radar_2_8.jpg"/>
+    <file src="radar/radar_2_9.jpg"/>
+    <file src="radar/radar_2_10.jpg"/>
+    <file src="radar/radar_2_11.jpg"/>
+    <file src="radar/radar_3_0.jpg"/>
+    <file src="radar/radar_3_1.jpg"/>
+    <file src="radar/radar_3_2.jpg"/>
+    <file src="radar/radar_3_3.jpg"/>
+    <file src="radar/radar_3_4.jpg"/>
+    <file src="radar/radar_3_5.jpg"/>
+    <file src="radar/radar_3_6.jpg"/>
+    <file src="radar/radar_3_7.jpg"/>
+    <file src="radar/radar_3_8.jpg"/>
+    <file src="radar/radar_3_9.jpg"/>
+    <file src="radar/radar_3_10.jpg"/>
+    <file src="radar/radar_3_11.jpg"/>
+    <file src="radar/radar_4_0.jpg"/>
+    <file src="radar/radar_4_1.jpg"/>
+    <file src="radar/radar_4_2.jpg"/>
+    <file src="radar/radar_4_3.jpg"/>
+    <file src="radar/radar_4_4.jpg"/>
+    <file src="radar/radar_4_5.jpg"/>
+    <file src="radar/radar_4_6.jpg"/>
+    <file src="radar/radar_4_7.jpg"/>
+    <file src="radar/radar_4_8.jpg"/>
+    <file src="radar/radar_4_9.jpg"/>
+    <file src="radar/radar_4_10.jpg"/>
+    <file src="radar/radar_4_11.jpg"/>
+    <file src="radar/radar_5_0.jpg"/>
+    <file src="radar/radar_5_1.jpg"/>
+    <file src="radar/radar_5_2.jpg"/>
+    <file src="radar/radar_5_3.jpg"/>
+    <file src="radar/radar_5_4.jpg"/>
+    <file src="radar/radar_5_5.jpg"/>
+    <file src="radar/radar_5_6.jpg"/>
+    <file src="radar/radar_5_7.jpg"/>
+    <file src="radar/radar_5_8.jpg"/>
+    <file src="radar/radar_5_9.jpg"/>
+    <file src="radar/radar_5_10.jpg"/>
+    <file src="radar/radar_5_11.jpg"/>
+    <file src="radar/radar_6_0.jpg"/>
+    <file src="radar/radar_6_1.jpg"/>
+    <file src="radar/radar_6_2.jpg"/>
+    <file src="radar/radar_6_3.jpg"/>
+    <file src="radar/radar_6_4.jpg"/>
+    <file src="radar/radar_6_5.jpg"/>
+    <file src="radar/radar_6_6.jpg"/>
+    <file src="radar/radar_6_7.jpg"/>
+    <file src="radar/radar_6_8.jpg"/>
+    <file src="radar/radar_6_9.jpg"/>
+    <file src="radar/radar_6_10.jpg"/>
+    <file src="radar/radar_6_11.jpg"/>
+    <file src="radar/radar_7_0.jpg"/>
+    <file src="radar/radar_7_1.jpg"/>
+    <file src="radar/radar_7_2.jpg"/>
+    <file src="radar/radar_7_3.jpg"/>
+    <file src="radar/radar_7_4.jpg"/>
+    <file src="radar/radar_7_5.jpg"/>
+    <file src="radar/radar_7_6.jpg"/>
+    <file src="radar/radar_7_7.jpg"/>
+    <file src="radar/radar_7_8.jpg"/>
+    <file src="radar/radar_7_9.jpg"/>
+    <file src="radar/radar_7_10.jpg"/>
+    <file src="radar/radar_7_11.jpg"/>
+    <file src="radar/radar_8_0.jpg"/>
+    <file src="radar/radar_8_1.jpg"/>
+    <file src="radar/radar_8_2.jpg"/>
+    <file src="radar/radar_8_3.jpg"/>
+    <file src="radar/radar_8_4.jpg"/>
+    <file src="radar/radar_8_5.jpg"/>
+    <file src="radar/radar_8_6.jpg"/>
+    <file src="radar/radar_8_7.jpg"/>
+    <file src="radar/radar_8_8.jpg"/>
+    <file src="radar/radar_8_9.jpg"/>
+    <file src="radar/radar_8_10.jpg"/>
+    <file src="radar/radar_8_11.jpg"/>
+    <file src="radar/radar_9_0.jpg"/>
+    <file src="radar/radar_9_1.jpg"/>
+    <file src="radar/radar_9_2.jpg"/>
+    <file src="radar/radar_9_3.jpg"/>
+    <file src="radar/radar_9_4.jpg"/>
+    <file src="radar/radar_9_5.jpg"/>
+    <file src="radar/radar_9_6.jpg"/>
+    <file src="radar/radar_9_7.jpg"/>
+    <file src="radar/radar_9_8.jpg"/>
+    <file src="radar/radar_9_9.jpg"/>
+    <file src="radar/radar_9_10.jpg"/>
+    <file src="radar/radar_9_11.jpg"/>
+    <file src="radar/radar_10_0.jpg"/>
+    <file src="radar/radar_10_1.jpg"/>
+    <file src="radar/radar_10_2.jpg"/>
+    <file src="radar/radar_10_3.jpg"/>
+    <file src="radar/radar_10_4.jpg"/>
+    <file src="radar/radar_10_5.jpg"/>
+    <file src="radar/radar_10_6.jpg"/>
+    <file src="radar/radar_10_7.jpg"/>
+    <file src="radar/radar_10_8.jpg"/>
+    <file src="radar/radar_10_9.jpg"/>
+    <file src="radar/radar_10_10.jpg"/>
+    <file src="radar/radar_10_11.jpg"/>
+    <file src="radar/radar_11_0.jpg"/>
+    <file src="radar/radar_11_1.jpg"/>
+    <file src="radar/radar_11_2.jpg"/>
+    <file src="radar/radar_11_3.jpg"/>
+    <file src="radar/radar_11_4.jpg"/>
+    <file src="radar/radar_11_5.jpg"/>
+    <file src="radar/radar_11_6.jpg"/>
+    <file src="radar/radar_11_7.jpg"/>
+    <file src="radar/radar_11_8.jpg"/>
+    <file src="radar/radar_11_9.jpg"/>
+    <file src="radar/radar_11_10.jpg"/>
+    <file src="radar/radar_11_11.jpg"/>
+	
+	<!-- Map -->
+
+	<export function="isPlayerMapVisible" type="client"/>
+	<export function="getPlayerMapBoundingBox" type="client"/>
+	<export function="getPlayerMapImage" type="client"/>
+	<export function="setPlayerMapBoundingBox" type="client"/>
+	<export function="setPlayerMapVisible" type="client"/>
+	<export function="getMapFromWorldPosition" type="client"/>
+	<export function="getWorldFromMapPosition" type="client"/>
+	<export function="setPlayerMapImage" type="client"/>
+	<export function="setPlayerMapColor" type="client"/>
+	<export function="getPlayerMapColor" type="client"/>
+	<export function="getPlayerMapMovementSpeed" type="client"/>
+	<export function="setPlayerMapMovementSpeed" type="client"/>
+	<export function="getPlayerMapZoomFactor" type="client"/>
+	<export function="setPlayerMapZoomFactor" type="client"/>
+	<export function="getPlayerMapZoomRate" type="client"/>
+	<export function="setPlayerMapZoomRate" type="client"/>
+	<export function="getPlayerMapMinZoomLimit" type="client"/>
+	<export function="setPlayerMapMinZoomLimit" type="client"/>
+	<export function="getPlayerMapMaxZoomLimit" type="client"/>
+	<export function="setPlayerMapMaxZoomLimit" type="client"/>
+	<export function="setBlipShowingOnMaximap" type="client"/>
+	<export function="getBlipShowingOnMaximap" type="client"/>
+
+	<file src="map/radar.jpg"/>
+
+	<file src="map/blips/0.png"/>
+	<file src="map/blips/1.png"/>
+	<file src="map/blips/2.png"/>
+	<file src="map/blips/3.png"/>
+	<file src="map/blips/4.png"/>
+	<file src="map/blips/5.png"/>
+	<file src="map/blips/6.png"/>
+	<file src="map/blips/7.png"/>
+	<file src="map/blips/8.png"/>
+	<file src="map/blips/9.png"/>
+	<file src="map/blips/10.png"/>
+	<file src="map/blips/11.png"/>
+	<file src="map/blips/12.png"/>
+	<file src="map/blips/13.png"/>
+	<file src="map/blips/14.png"/>
+	<file src="map/blips/15.png"/>
+	<file src="map/blips/16.png"/>
+	<file src="map/blips/17.png"/>
+	<file src="map/blips/18.png"/>
+	<file src="map/blips/19.png"/>
+	<file src="map/blips/20.png"/>
+	<file src="map/blips/21.png"/>
+	<file src="map/blips/22.png"/>
+	<file src="map/blips/23.png"/>
+	<file src="map/blips/24.png"/>
+	<file src="map/blips/25.png"/>
+	<file src="map/blips/26.png"/>
+	<file src="map/blips/27.png"/>
+	<file src="map/blips/28.png"/>
+	<file src="map/blips/29.png"/>
+	<file src="map/blips/30.png"/>
+	<file src="map/blips/31.png"/>
+	<file src="map/blips/32.png"/>
+	<file src="map/blips/33.png"/>
+	<file src="map/blips/34.png"/>
+	<file src="map/blips/35.png"/>
+	<file src="map/blips/36.png"/>
+	<file src="map/blips/37.png"/>
+	<file src="map/blips/38.png"/>
+	<file src="map/blips/39.png"/>
+	<file src="map/blips/40.png"/>
+	<file src="map/blips/41.png"/>
+	<file src="map/blips/42.png"/>
+	<file src="map/blips/43.png"/>
+	<file src="map/blips/44.png"/>
+	<file src="map/blips/45.png"/>
+	<file src="map/blips/46.png"/>
+	<file src="map/blips/47.png"/>
+	<file src="map/blips/48.png"/>
+	<file src="map/blips/49.png"/>
+	<file src="map/blips/50.png"/>
+	<file src="map/blips/51.png"/>
+	<file src="map/blips/52.png"/>
+	<file src="map/blips/53.png"/>
+	<file src="map/blips/54.png"/>
+	<file src="map/blips/55.png"/>
+	<file src="map/blips/56.png"/>
+	<file src="map/blips/57.png"/>
+	<file src="map/blips/58.png"/>
+	<file src="map/blips/59.png"/>
+	<file src="map/blips/60.png"/>
+	<file src="map/blips/61.png"/>
+	<file src="map/blips/62.png"/>
+	<file src="map/blips/63.png"/>
+	
+</meta>

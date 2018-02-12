@@ -1,0 +1,17 @@
+<meta>
+	<info author="Phil" version="1.0" description="Server Essentials"/>
+	
+	<script src="chatbubble/c_chatbubble.lua" type="client"/>
+	<script src="chatbubble/s_chatbubble.lua" type="server"/>
+	<file src="chatbubble/bubble.png"/>
+	
+	<script src="ids/ids.lua" type="server"/>
+	<script src="nametags/nametags.lua" type="client"/>
+	
+	<script src="scoreboard/scoreboard.lua" type="client"/>
+	
+	<script src="textbubbles/s_textbubbles.lua" type="server"/>
+	<script src="textbubbles/c_textbubbles.lua" type="client"/>
+	
+	<file src="font.ttf"/>
+</meta>	

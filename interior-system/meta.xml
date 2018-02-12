@@ -1,0 +1,19 @@
+<meta>
+	<info author="Phil" version="1.0" description="Interior System"/>
+	
+	<script src="s_interiors.lua" type="server"/>
+	<script src="c_interiors.lua" type="client"/>
+	
+	<script src="g_interiors.lua" type="server"/>
+	<script src="g_interiors.lua" type="client"/>
+	
+	<script src="c_interiorlist.lua" type="client"/>
+	
+	<script src="veh_interiors.lua" type="server"/>
+	<export function="createVehicleInterior" type="server"/>
+	
+	<file src="calibri.ttf"/>
+	
+	<!-- Custom Interiors -->
+	<script src="custom/journey.lua" type="server"/>
+</meta>

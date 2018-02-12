@@ -1,0 +1,12 @@
+<meta>
+	<info description="Shader System" version="1.0" type="script" />
+	<script src="c_water.lua" type="client" />
+	<file src="water.fx" type="client" />
+	<file src="images/smallnoise3d.dds" type="client" />
+	<file src="images/cube_env256.dds" type="client" />
+	<script src="c_bloom.lua" type="client" />
+	<file src="addBlend.fx" type="client" />
+	<file src="blurH.fx" type="client" />
+	<file src="blurV.fx" type="client" />
+	<file src="brightPass.fx" type="client" />
+</meta>

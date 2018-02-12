@@ -1,0 +1,5 @@
+<meta>
+	<info author="Phil" version="1.0" description="Interior System"/>
+	
+	<script src="elevators.lua" type="server"/>
+</meta>

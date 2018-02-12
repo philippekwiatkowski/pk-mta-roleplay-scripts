@@ -1,0 +1,12 @@
+<map edf:definitions="editor_main">
+    <object id="object (bikeschl_main) (1)" doublesided="false" model="14603" interior="0" dimension="0" posX="3942.6000976563" posY="-1153.3000488281" posZ="148.30000305176" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (bikeschl_main) (2)" doublesided="false" model="14603" interior="0" dimension="0" posX="3935.7998046875" posY="-1149.099609375" posZ="148.39999389648" rotX="0" rotY="0" rotZ="91.499633789063"></object>
+    <object id="object (nf_blackboard) (1)" doublesided="false" model="3077" interior="0" dimension="0" posX="3935.3999023438" posY="-1154.0999755859" posZ="146.60000610352" rotX="0" rotY="0" rotZ="89"></object>
+    <object id="object (MED_DIN_CHAIR_5) (1)" doublesided="false" model="1811" interior="0" dimension="0" posX="3939.8999023438" posY="-1152.9000244141" posZ="147.30000305176" rotX="0" rotY="0" rotZ="1.5"></object>
+    <object id="object (MED_DIN_CHAIR_5) (2)" doublesided="false" model="1811" interior="0" dimension="0" posX="3939.8994140625" posY="-1154.099609375" posZ="147.30000305176" rotX="0" rotY="0" rotZ="2.2467041015625"></object>
+    <object id="object (MED_DIN_CHAIR_5) (3)" doublesided="false" model="1811" interior="0" dimension="0" posX="3940" posY="-1155.3994140625" posZ="147.30000305176" rotX="0" rotY="0" rotZ="2.2412109375"></object>
+    <object id="object (kmb_petroldoor) (1)" doublesided="false" model="2911" interior="0" dimension="0" posX="3936.5" posY="-1151.4000244141" posZ="146.60000610352" rotX="0" rotY="0" rotZ="1.25"></object>
+    <object id="object (petrolpumpnew) (1)" doublesided="false" model="1686" interior="0" dimension="0" posX="-2026.5999755859" posY="155.69999694824" posZ="28" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (petrolpumpnew) (2)" doublesided="false" model="1686" interior="0" dimension="0" posX="-2026.5999755859" posY="157.69999694824" posZ="28" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (BinNt07_LA) (1)" doublesided="false" model="1337" interior="0" dimension="0"></object>
+</map>

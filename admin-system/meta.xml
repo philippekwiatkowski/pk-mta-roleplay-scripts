@@ -1,0 +1,24 @@
+<meta>
+	<info author="Phil" version="1.0" description="Admin System"/>
+	
+	<script src="commands/s_admin_cmd.lua" type="server"/>
+	<script src="commands/c_admin_cmd.lua" type="client"/>
+	<script src="commands/g_commands.lua" type="client"/>
+	
+	<script src="superman/c_superman.lua" type="client"/>
+	<script src="superman/s_superman.lua" type="server"/>
+	
+	<script src="freecam/freecam.lua" type="client"/>
+	<script src="freecam/freecam_server.lua" type="server"/>
+	
+	<script src="report/c_report.lua" type="client"/>
+	<script src="report/s_report.lua" type="server"/>
+	
+	<script src="check/s_check.lua" type="server"/>
+	<script src="check/c_check.lua" type="client"/>
+	
+	<script src="rules/rules.lua" type="client"/>
+	
+	<script src="debug.lua" type="client"/>
+	<script src="bans.lua" type="server"/>
+</meta>	

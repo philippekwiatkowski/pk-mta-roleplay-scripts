@@ -1,0 +1,12 @@
+<meta>
+	<info author="Phil" version="1.0" description="Government System"/>
+	
+	<script src="government.lua" type="server"/>
+	
+	<script src="s_paycheck.lua" type="server"/>
+	<script src="c_paycheck.lua" type="client"/>
+	
+	<script src="sound.lua" type="client"/>
+	
+	<file src="paycheck.wav"/>
+</meta>	

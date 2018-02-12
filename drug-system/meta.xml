@@ -1,0 +1,5 @@
+<meta>
+	<info author="Phil" version="1.0" description="Drug System"/>
+	
+	<script src="drugs.lua" type="client"/>
+</meta>	

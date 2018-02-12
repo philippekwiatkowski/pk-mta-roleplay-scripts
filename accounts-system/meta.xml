@@ -1,0 +1,6 @@
+<meta>
+	<info author="Phil" version="1.0" description="Account System"/>
+	
+	<script src="s_login.lua" type="server"/>
+	<script src="c_login.lua" type="client"/>
+</meta>	

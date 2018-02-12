@@ -1,0 +1,27 @@
+<meta>
+	<info author="Phil" version="1.0" description="Job System"/>
+	
+	<script src="s_job.lua" type="server"/>
+	<script src="c_job.lua" type="client"/>
+	
+	<script src="sweeper/s_sweeper.lua" type="server"/>
+	<script src="sweeper/c_sweeper.lua" type="client"/>
+	
+	<script src="bus/s_bus.lua" type="server"/>
+	<script src="bus/c_bus.lua" type="client"/>
+	
+	<script src="taxi/s_taxi.lua" type="server"/>
+	<script src="taxi/c_taxi.lua" type="client"/>
+	<file src="taxi/crysta.ttf"/>
+	
+	<script src="tanker/s_tanker.lua" type="server"/>
+	<export function="isTrailerAttached" type="server"/>
+	<export function="hasTrailerAttached" type="server"/>
+	
+	<script src="tanker/c_tanker.lua" type="client"/>
+	
+	<script src="photographer/s_photographer.lua" type="server"/>
+	<script src="photographer/c_photographer.lua" type="client"/>
+	
+	<script src="help.lua" type="client"/>
+</meta>	

@@ -1,0 +1,49 @@
+local sql = exports.sql
+
+--------- [ Element Data returns ] ---------
+local function getData( theElement, key )
+	local key = tostring(key)
+	if isElement(theElement) and (key) then
+		
+		return exports['[ars]anticheat-system']:callData( theElement, tostring(key) )
+	else
+		return false
+	end
+end	
+
+local function setData( theElement, key, value, sync )
+	local key = tostring(key)
+	local value = tonumber(value) or tostring(value)
+	if isElement(theElement) and (key) and (value) then
+		
+		return exports['[ars]anticheat-system']:assignData( theElement, tostring(key), value, sync )
+	else
+		return false
+	end	
+end
+
+--------- [ Faction Commands ] ---------
+
+-- /duty
+function factionDuty( thePlayer, commandName )
+	local faction = tonumber( getData(thePlayer, "faction") )
+	if ( faction == 1 ) or ( faction == 2 ) then -- LSPD/LSFD
+		
+		triggerClientEvent(thePlayer, "showUniformUI", thePlayer, faction)
+	end
+end
+addCommandHandler("duty", factionDuty, false, false)
+
+function setFactionDuty( faction, skin ) 
+	local weapons = nil
+	if ( faction == 2 ) then -- LSFD
+		
+		weapons = { 9, 42 }
+	end
+
+	setPlayerSkin(source, skin)
+	
+	outputChatBox("You are now on duty.", thePlayer, 212, 156, 49)
+end
+addEvent("setFactionDuty", true)
+addEventHandler("setFactionDuty", root, setFactionDuty)
